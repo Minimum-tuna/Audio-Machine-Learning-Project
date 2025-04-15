@@ -2,7 +2,9 @@ just after nfft = 2048
 
 
 segmenting = 0  # 0 => the code will take one piece of data per file
+                
                 # 1 => the code will take len(data)/length segments per file (padding with zeros on last segment)
+                
                 # 2 => the code will take len(data)/length segments per file (last segment will end before end of file data when possible)
 
 replace "sections = int(etc etc)"
